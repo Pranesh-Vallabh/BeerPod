@@ -10,7 +10,7 @@ import Foundation
 
 public struct ApiURL {
     
-    private var apiURL:String
+    private static var apiURL:String = ""
     
     public static func setupApiUrl(with apiURL: String) {
         self.apiURL = apiURL
