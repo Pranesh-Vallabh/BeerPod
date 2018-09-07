@@ -11,7 +11,7 @@
 		0E2DE1CB213E891C005AEC4D /* BeerPodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2DE1CA213E891C005AEC4D /* BeerPodTests.swift */; };
 		0E2DE1CD213E891C005AEC4D /* BeerPod.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E2DE1BF213E891C005AEC4D /* BeerPod.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0E2DE1DE213E8EEE005AEC4D /* Repository in Resources */ = {isa = PBXBuildFile; fileRef = 0E2DE1D8213E8EEE005AEC4D /* Repository */; };
-		0E2DE1DF213E8EEE005AEC4D /* Constants in Resources */ = {isa = PBXBuildFile; fileRef = 0E2DE1D9213E8EEE005AEC4D /* Constants */; };
+		0E2DE1DF213E8EEE005AEC4D /* UrlSetup in Resources */ = {isa = PBXBuildFile; fileRef = 0E2DE1D9213E8EEE005AEC4D /* UrlSetup */; };
 		0E2DE1E0213E8EEE005AEC4D /* Services in Resources */ = {isa = PBXBuildFile; fileRef = 0E2DE1DA213E8EEE005AEC4D /* Services */; };
 		0E2DE1E1213E8EEE005AEC4D /* ViewModel in Resources */ = {isa = PBXBuildFile; fileRef = 0E2DE1DB213E8EEE005AEC4D /* ViewModel */; };
 		0E2DE1E2213E8EEE005AEC4D /* Model in Resources */ = {isa = PBXBuildFile; fileRef = 0E2DE1DC213E8EEE005AEC4D /* Model */; };
@@ -42,7 +42,7 @@
 		0E2DE1CA213E891C005AEC4D /* BeerPodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerPodTests.swift; sourceTree = "<group>"; };
 		0E2DE1CC213E891C005AEC4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E2DE1D8213E8EEE005AEC4D /* Repository */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Repository; sourceTree = "<group>"; };
-		0E2DE1D9213E8EEE005AEC4D /* Constants */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Constants; sourceTree = "<group>"; };
+		0E2DE1D9213E8EEE005AEC4D /* UrlSetup */ = {isa = PBXFileReference; lastKnownFileType = folder; path = UrlSetup; sourceTree = "<group>"; };
 		0E2DE1DA213E8EEE005AEC4D /* Services */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Services; sourceTree = "<group>"; };
 		0E2DE1DB213E8EEE005AEC4D /* ViewModel */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ViewModel; sourceTree = "<group>"; };
 		0E2DE1DC213E8EEE005AEC4D /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Model; sourceTree = "<group>"; };
@@ -109,7 +109,7 @@
 				0EF71F1F214245EF00730E57 /* AccessibilityDetails */,
 				0E883FE9213FA7EF00C113B6 /* SampleData */,
 				0E2DE1E4213E8F82005AEC4D /* Controllers */,
-				0E2DE1D9213E8EEE005AEC4D /* Constants */,
+				0E2DE1D9213E8EEE005AEC4D /* UrlSetup */,
 				0E2DE1DD213E8EEE005AEC4D /* Dependency */,
 				0E2DE1DC213E8EEE005AEC4D /* Model */,
 				0E2DE1D8213E8EEE005AEC4D /* Repository */,
@@ -252,7 +252,7 @@
 				0E2DE1E2213E8EEE005AEC4D /* Model in Resources */,
 				0E2DE1E0213E8EEE005AEC4D /* Services in Resources */,
 				0E2DE1E1213E8EEE005AEC4D /* ViewModel in Resources */,
-				0E2DE1DF213E8EEE005AEC4D /* Constants in Resources */,
+				0E2DE1DF213E8EEE005AEC4D /* UrlSetup in Resources */,
 				0E2DE1DE213E8EEE005AEC4D /* Repository in Resources */,
 				0E2DE1E5213E8F82005AEC4D /* Controllers in Resources */,
 				0EF71F20214245F000730E57 /* AccessibilityDetails in Resources */,
