@@ -18,6 +18,7 @@
 		0E2DE1E3213E8EEE005AEC4D /* Dependency in Resources */ = {isa = PBXBuildFile; fileRef = 0E2DE1DD213E8EEE005AEC4D /* Dependency */; };
 		0E2DE1E5213E8F82005AEC4D /* Controllers in Resources */ = {isa = PBXBuildFile; fileRef = 0E2DE1E4213E8F82005AEC4D /* Controllers */; };
 		0E883FEA213FA7EF00C113B6 /* SampleData in Resources */ = {isa = PBXBuildFile; fileRef = 0E883FE9213FA7EF00C113B6 /* SampleData */; };
+		0EF71F20214245F000730E57 /* AccessibilityDetails in Resources */ = {isa = PBXBuildFile; fileRef = 0EF71F1F214245EF00730E57 /* AccessibilityDetails */; };
 		784DAE9B4F456A0E9DA42AB0 /* Pods_BeerPod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 402C12A0C33FF7F9A5C9F8CF /* Pods_BeerPod.framework */; };
 		9AA130D973A6CFE5EADC4A26 /* Pods_BeerPodTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE5A09E696814F7A5458CA97 /* Pods_BeerPodTests.framework */; };
 		A2011091981614EFA663B4BF /* Pods_BeerPod_BeerPodTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A265676242247903BAEF80 /* Pods_BeerPod_BeerPodTests.framework */; };
@@ -48,6 +49,7 @@
 		0E2DE1DD213E8EEE005AEC4D /* Dependency */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Dependency; sourceTree = "<group>"; };
 		0E2DE1E4213E8F82005AEC4D /* Controllers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Controllers; sourceTree = "<group>"; };
 		0E883FE9213FA7EF00C113B6 /* SampleData */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SampleData; sourceTree = "<group>"; };
+		0EF71F1F214245EF00730E57 /* AccessibilityDetails */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AccessibilityDetails; sourceTree = "<group>"; };
 		281AE52EEC93ADA6DD07AFD6 /* Pods-BeerPod-BeerPodTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeerPod-BeerPodTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeerPod-BeerPodTests/Pods-BeerPod-BeerPodTests.debug.xcconfig"; sourceTree = "<group>"; };
 		402C12A0C33FF7F9A5C9F8CF /* Pods_BeerPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeerPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4D17516287ADFFC1B94E45B /* Pods-BeerPodTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeerPodTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeerPodTests/Pods-BeerPodTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 		0E2DE1BE213E891C005AEC4D /* BeerPod */ = {
 			isa = PBXGroup;
 			children = (
+				0EF71F1F214245EF00730E57 /* AccessibilityDetails */,
 				0E883FE9213FA7EF00C113B6 /* SampleData */,
 				0E2DE1E4213E8F82005AEC4D /* Controllers */,
 				0E2DE1D9213E8EEE005AEC4D /* Constants */,
@@ -252,6 +255,7 @@
 				0E2DE1DF213E8EEE005AEC4D /* Constants in Resources */,
 				0E2DE1DE213E8EEE005AEC4D /* Repository in Resources */,
 				0E2DE1E5213E8F82005AEC4D /* Controllers in Resources */,
+				0EF71F20214245F000730E57 /* AccessibilityDetails in Resources */,
 				0E883FEA213FA7EF00C113B6 /* SampleData in Resources */,
 				0E2DE1E3213E8EEE005AEC4D /* Dependency in Resources */,
 			);
