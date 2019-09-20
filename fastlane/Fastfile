@@ -12,6 +12,7 @@
 
 # Uncomment the line if you want fastlane to automatically update itself
 # update_fastlane
+# e.g. fastlane ios major
 
 default_platform(:ios)
 
@@ -23,12 +24,15 @@ platform :ios do
     # add actions here: https://docs.fastlane.tools/actions
   end
 
-  def release(type)
-  	# pod_lib_lint(
-  	# 	allow_warnings: true,
-  	# 	use_libraries: true,
-  	# )
+  lane :minor do 
+  	release("minor")
+  end
 
+  lane :patch do 
+  	release("patch")
+  end
+
+  def release(type)
   	podspec_name = "BeerPod.podspec"
   	version = version_bump_podspec(path: podspec_name, bump_type: type)
   	increment_version_number(version_number: version)
@@ -38,9 +42,5 @@ platform :ios do
   	git_commit(path: ".", message: "#{version} release")
   	add_git_tag(tag: "#{version}")
   	push_to_git_remote
-  	# pod_push(
-  	# 	allow_warnings: true,
-  	# 	use_libraries: true,
-  	# )
   end
 end
